@@ -15,6 +15,11 @@ const router = express.Router();
  *   page           - 1-indexed page number, default 1
  *   limit          - page size, default 9
  */
+
+function escapeRegex(value) {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
 router.get('/', async (req, res) => {
   try {
     const {
@@ -31,7 +36,8 @@ router.get('/', async (req, res) => {
     const clauses = [];
 
     if (q && q.trim()) {
-      const rx = new RegExp(q.trim(), 'i');
+      // const rx = new RegExp(q.trim(), 'i');
+      const rx = new RegExp(escapeRegex(q.trim()), 'i');
       clauses.push({
         $or: [{ title: rx }, { company: rx }, { description: rx }],
       });
