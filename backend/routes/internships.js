@@ -54,7 +54,8 @@ router.get('/', async (req, res) => {
 
     // Combine the clauses. If multiple filters are selected, results should
     // match all of them.
-    const filter = clauses.length ? { $or: clauses } : {};
+    // const filter = clauses.length ? { $or: clauses } : {};
+    const filter = clauses.length ? { $and: clauses } : {};
 
     const pageNum = Math.max(1, parseInt(page, 10) || 1);
     const limitNum = Math.max(1, parseInt(limit, 10) || 9);
