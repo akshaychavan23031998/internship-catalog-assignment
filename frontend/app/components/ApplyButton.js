@@ -79,7 +79,7 @@ export default function ApplyButton({ internshipId }) {
   };
 
   return (
-    <div className="flex items-center gap-3">
+    <div className="flex flex-col items-start gap-2">
       <button
         onClick={apply}
         disabled={status === 'loading' || status === 'success'}

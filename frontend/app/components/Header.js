@@ -15,7 +15,7 @@ export default function Header() {
             Find your internship
           </Link>
           <Link href="/saved" className="hover:text-ink">
-            Saved
+            Saved internships
           </Link>
         </nav>
       </div>

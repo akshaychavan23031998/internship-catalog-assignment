@@ -17,3 +17,37 @@ export function buildUrl(path, params = {}) {
   });
   return url.toString();
 }
+
+async function parseJsonResponse(res) {
+  const data = await res.json().catch(() => ({}));
+  if (!res.ok) {
+    throw new Error(data.error || 'Request failed');
+  }
+  return data;
+}
+
+export async function getSavedInternships(userId = CURRENT_USER_ID) {
+  const res = await fetch(buildUrl('/api/bookmarks', { userId }));
+  return parseJsonResponse(res);
+}
+
+export async function getBookmarkState(internshipId, userId = CURRENT_USER_ID) {
+  const res = await fetch(buildUrl(`/api/bookmarks/${internshipId}`, { userId }));
+  return parseJsonResponse(res);
+}
+
+export async function saveInternship(internshipId, userId = CURRENT_USER_ID) {
+  const res = await fetch(`${API_BASE}/api/bookmarks`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ internshipId, userId }),
+  });
+  return parseJsonResponse(res);
+}
+
+export async function unsaveInternship(internshipId, userId = CURRENT_USER_ID) {
+  const res = await fetch(buildUrl(`/api/bookmarks/${internshipId}`, { userId }), {
+    method: 'DELETE',
+  });
+  return parseJsonResponse(res);
+}

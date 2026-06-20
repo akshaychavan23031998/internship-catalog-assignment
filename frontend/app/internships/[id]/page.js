@@ -1,5 +1,6 @@
 import { API_BASE } from '@/lib/api';
 import ApplyButton from '../../components/ApplyButton';
+import BookmarkButton from '../../components/BookmarkButton';
 import Link from 'next/link';
 
 async function getInternship(id) {
@@ -76,8 +77,9 @@ export default async function InternshipDetailPage({ params }) {
         )}
       </section>
 
-      <div className="mt-6">
+      <div className="mt-6 flex flex-wrap items-start gap-3">
         <ApplyButton internshipId={internship._id} />
+        <BookmarkButton internshipId={internship._id} />
       </div>
     </article>
   );

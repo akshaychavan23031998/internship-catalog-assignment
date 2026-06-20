@@ -5,6 +5,7 @@ const { connect } = require('./db');
 
 const internshipsRouter = require('./routes/internships');
 const applicationsRouter = require('./routes/applications');
+const bookmarksRouter = require('./routes/bookmarks');
 
 const app = express();
 app.use(cors());
@@ -14,8 +15,8 @@ app.get('/api/health', (_req, res) => res.json({ ok: true }));
 
 app.use('/api/internships', internshipsRouter);
 app.use('/api/applications', applicationsRouter);
+app.use('/api/bookmarks', bookmarksRouter);
 
-// TODO (candidate): mount a /api/bookmarks router for the "Save for later" feature.
 // TODO (candidate): mount a /api/find router for the "Find Your Internship" AI feature.
 
 const PORT = process.env.PORT || 4000;
