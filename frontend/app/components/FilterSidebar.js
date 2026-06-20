@@ -15,6 +15,7 @@ export default function FilterSidebar({ facets, filters, onChange }) {
       domain: [],
       workMode: [],
       location: [],
+      minStipend: '',
     });
   };
 
