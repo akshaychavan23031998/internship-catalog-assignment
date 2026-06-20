@@ -58,7 +58,8 @@ router.get('/', async (req, res) => {
 
     const pageNum = Math.max(1, parseInt(page, 10) || 1);
     const limitNum = Math.max(1, parseInt(limit, 10) || 9);
-    const skip = pageNum * limitNum;
+    // const skip = pageNum * limitNum;
+    const skip = (pageNum - 1) * limitNum;
 
     const [items, total] = await Promise.all([
       Internship.find(filter)
