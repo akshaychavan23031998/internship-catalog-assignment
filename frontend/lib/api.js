@@ -51,3 +51,12 @@ export async function unsaveInternship(internshipId, userId = CURRENT_USER_ID) {
   });
   return parseJsonResponse(res);
 }
+
+export async function findInternshipMatches(profile) {
+  const res = await fetch(`${API_BASE}/api/match`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(profile),
+  });
+  return parseJsonResponse(res);
+}
