@@ -809,3 +809,37 @@ Save for later feature
 AI-powered matcher feature
 Updated README submission notes
 ```
+
+---
+
+## Live deployment
+
+The application is deployed with separate Vercel projects for frontend and backend.
+
+### Frontend
+
+```txt
+https://internship-catalog-frontend.vercel.app/
+```
+
+### Backend API
+
+Health check:
+
+```txt
+https://internship-catalog-backend.vercel.app/api/health
+```
+
+Internships API:
+
+```txt
+https://internship-catalog-backend.vercel.app/api/internships
+```
+
+### Deployment notes
+
+* Frontend is deployed on Vercel from the `frontend/` directory.
+* Backend is deployed on Vercel from the `backend/` directory.
+* MongoDB Atlas is used as the production database.
+* The frontend uses `NEXT_PUBLIC_API_BASE` to call the deployed backend.
+* Backend-only secrets such as `MONGODB_URI` and `GEMINI_API_KEY` are stored only in the backend Vercel environment variables.
