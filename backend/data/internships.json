@@ -1,0 +1,222 @@
+[
+  {
+    "title": "Frontend Engineering Intern",
+    "company": "Lumen Labs",
+    "domain": "Software",
+    "location": "Bangalore",
+    "workMode": "Hybrid",
+    "durationMonths": 6,
+    "stipendPerMonth": 35000,
+    "skills": ["React", "TypeScript", "Tailwind CSS", "REST APIs"],
+    "description": "Build customer-facing dashboards for our analytics platform. You will work closely with senior engineers on the design system, ship features to production weekly, and own small projects end to end. Ideal for students with solid JavaScript fundamentals and a curiosity about UI craft."
+  },
+  {
+    "title": "Backend Engineering Intern",
+    "company": "Northwind Systems",
+    "domain": "Software",
+    "location": "Hyderabad",
+    "workMode": "Onsite",
+    "durationMonths": 6,
+    "stipendPerMonth": 40000,
+    "skills": ["Node.js", "PostgreSQL", "Docker", "AWS"],
+    "description": "Help build the data ingestion pipeline that powers our logistics product. You will write Node services, design schemas, and learn how production systems are deployed and monitored. Strong fit for students who enjoy systems work over UI work."
+  },
+  {
+    "title": "Machine Learning Intern",
+    "company": "Atlas AI",
+    "domain": "AI/ML",
+    "location": "Remote",
+    "workMode": "Remote",
+    "durationMonths": 4,
+    "stipendPerMonth": 50000,
+    "skills": ["Python", "PyTorch", "NLP", "Hugging Face"],
+    "description": "Work on fine-tuning open-source language models for the legal domain. You will run experiments, evaluate model outputs, and contribute to our retrieval-augmented generation stack. Coursework or projects in deep learning expected."
+  },
+  {
+    "title": "Data Science Intern",
+    "company": "Quanta Insights",
+    "domain": "AI/ML",
+    "location": "Mumbai",
+    "workMode": "Hybrid",
+    "durationMonths": 6,
+    "stipendPerMonth": 30000,
+    "skills": ["Python", "Pandas", "SQL", "Tableau"],
+    "description": "Analyze user behaviour data for a consumer fintech app and build dashboards that the product team uses every day. You will design A/B tests, write SQL against a large warehouse, and present findings to non-technical stakeholders."
+  },
+  {
+    "title": "Product Design Intern",
+    "company": "Mosaic Studio",
+    "domain": "Design",
+    "location": "Bangalore",
+    "workMode": "Hybrid",
+    "durationMonths": 3,
+    "stipendPerMonth": 25000,
+    "skills": ["Figma", "User Research", "Prototyping"],
+    "description": "Join a small product team designing a new B2B SaaS product. You will run user interviews, build interactive prototypes in Figma, and partner with engineers during implementation. Portfolio required."
+  },
+  {
+    "title": "UX Research Intern",
+    "company": "Mosaic Studio",
+    "domain": "Design",
+    "location": "Remote",
+    "workMode": "Remote",
+    "durationMonths": 4,
+    "stipendPerMonth": 22000,
+    "skills": ["User Interviews", "Survey Design", "Notion"],
+    "description": "Plan and run usability studies for our flagship product. You will recruit participants, synthesize findings into research reports, and present recommendations to designers and PMs."
+  },
+  {
+    "title": "Marketing Intern",
+    "company": "BrightPath",
+    "domain": "Marketing",
+    "location": "Delhi",
+    "workMode": "Onsite",
+    "durationMonths": 3,
+    "stipendPerMonth": 15000,
+    "skills": ["Content Writing", "SEO", "Social Media"],
+    "description": "Support the content marketing team across blog, email, and social. You will write long-form articles, manage our editorial calendar, and learn the basics of SEO and analytics."
+  },
+  {
+    "title": "Growth Marketing Intern",
+    "company": "Voltcast",
+    "domain": "Marketing",
+    "location": "Remote",
+    "workMode": "Remote",
+    "durationMonths": 6,
+    "stipendPerMonth": 28000,
+    "skills": ["Google Ads", "Analytics", "A/B Testing", "Email"],
+    "description": "Own a slice of our paid acquisition funnel from day one. You will design landing page experiments, manage ad budgets under supervision, and report weekly on what is working."
+  },
+  {
+    "title": "Mobile Engineering Intern",
+    "company": "Foliage Health",
+    "domain": "Software",
+    "location": "Pune",
+    "workMode": "Onsite",
+    "durationMonths": 6,
+    "stipendPerMonth": 38000,
+    "skills": ["React Native", "TypeScript", "Firebase"],
+    "description": "Build features for our consumer wellness app used by 200k+ users. You will own small features end-to-end, write tests, and learn how to ship safely to the App Store and Play Store."
+  },
+  {
+    "title": "DevOps Intern",
+    "company": "Northwind Systems",
+    "domain": "Software",
+    "location": "Hyderabad",
+    "workMode": "Hybrid",
+    "durationMonths": 6,
+    "stipendPerMonth": 35000,
+    "skills": ["Linux", "Terraform", "AWS", "CI/CD"],
+    "description": "Help us improve our deploy pipelines and observability stack. You will write Terraform modules, tune CI workflows, and respond to non-critical incidents alongside the platform team."
+  },
+  {
+    "title": "Finance Intern",
+    "company": "Steelgrove Capital",
+    "domain": "Finance",
+    "location": "Mumbai",
+    "workMode": "Onsite",
+    "durationMonths": 2,
+    "stipendPerMonth": 20000,
+    "skills": ["Excel", "Financial Modelling", "Valuation"],
+    "description": "Assist the investment team with industry research, financial modelling, and deck preparation. Best suited for finance, economics, or commerce students."
+  },
+  {
+    "title": "Operations Intern",
+    "company": "BrightPath",
+    "domain": "Operations",
+    "location": "Delhi",
+    "workMode": "Onsite",
+    "durationMonths": 3,
+    "stipendPerMonth": 18000,
+    "skills": ["Excel", "Process Design", "Communication"],
+    "description": "Support the city operations team running our logistics network. Expect a mix of data work, vendor coordination, and on-the-ground problem solving."
+  },
+  {
+    "title": "HR Intern",
+    "company": "Lumen Labs",
+    "domain": "Human Resources",
+    "location": "Bangalore",
+    "workMode": "Hybrid",
+    "durationMonths": 3,
+    "stipendPerMonth": 15000,
+    "skills": ["Communication", "Excel", "Notion"],
+    "description": "Work with the people team on early-careers hiring. You will coordinate candidate pipelines, help organize campus events, and write content for our employer brand."
+  },
+  {
+    "title": "AI Product Intern",
+    "company": "Atlas AI",
+    "domain": "Product Management",
+    "location": "Remote",
+    "workMode": "Remote",
+    "durationMonths": 4,
+    "stipendPerMonth": 45000,
+    "skills": ["Prompt Design", "Product Sense", "SQL", "Analytics"],
+    "description": "Partner with engineering and design on a new generative-AI feature for enterprise customers. You will write specs, design prompts, run quality evaluations, and define metrics with the data team."
+  },
+  {
+    "title": "QA Engineering Intern",
+    "company": "Foliage Health",
+    "domain": "Software",
+    "location": "Pune",
+    "workMode": "Hybrid",
+    "durationMonths": 4,
+    "stipendPerMonth": 25000,
+    "skills": ["Manual Testing", "Cypress", "JIRA"],
+    "description": "Help us strengthen test coverage across our mobile and web products. You will write end-to-end tests in Cypress, file high-quality bug reports, and participate in release reviews."
+  },
+  {
+    "title": "Cloud Engineering Intern",
+    "company": "Skyforge",
+    "domain": "Software",
+    "location": "Remote",
+    "workMode": "Remote",
+    "durationMonths": 6,
+    "stipendPerMonth": 40000,
+    "skills": ["AWS", "Kubernetes", "Python", "Bash"],
+    "description": "Join our platform team building internal developer tooling on top of Kubernetes. You will write CLIs, automate cluster operations, and improve developer onboarding."
+  },
+  {
+    "title": "Cybersecurity Intern",
+    "company": "Skyforge",
+    "domain": "Security",
+    "location": "Bangalore",
+    "workMode": "Onsite",
+    "durationMonths": 6,
+    "stipendPerMonth": 38000,
+    "skills": ["Networking", "Linux", "Threat Modelling"],
+    "description": "Support our security team on internal threat modelling, vulnerability triage, and incident response drills. You will learn how a real SOC operates day to day."
+  },
+  {
+    "title": "Content Design Intern",
+    "company": "Voltcast",
+    "domain": "Design",
+    "location": "Remote",
+    "workMode": "Remote",
+    "durationMonths": 3,
+    "stipendPerMonth": 20000,
+    "skills": ["UX Writing", "Editorial", "Figma"],
+    "description": "Own product copy for new feature launches. You will partner with designers and PMs, run content reviews, and contribute to our growing voice and tone guidelines."
+  },
+  {
+    "title": "Business Development Intern",
+    "company": "Steelgrove Capital",
+    "domain": "Business",
+    "location": "Mumbai",
+    "workMode": "Hybrid",
+    "durationMonths": 3,
+    "stipendPerMonth": 22000,
+    "skills": ["Outreach", "CRM", "Communication"],
+    "description": "Help open conversations with prospective portfolio companies. You will research targets, draft outreach, and join calls with senior partners. Good for students who enjoy people work."
+  },
+  {
+    "title": "Data Engineering Intern",
+    "company": "Quanta Insights",
+    "domain": "Software",
+    "location": "Bangalore",
+    "workMode": "Hybrid",
+    "durationMonths": 6,
+    "stipendPerMonth": 42000,
+    "skills": ["Python", "Airflow", "SQL", "dbt"],
+    "description": "Build and maintain ETL pipelines that feed our analytics warehouse. You will write Airflow DAGs, model data in dbt, and work directly with analysts to ship trustworthy datasets."
+  }
+]
